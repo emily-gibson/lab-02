@@ -1,6 +1,6 @@
 ---
 title: "Lab 02 - Global plastic waste"
-author: "Team Name: Emily Gibson, Fay Lyu, Hattie Meechan and User4"
+author: "Team Name: Emily Gibson, Fay Lyu, Hattie Meechan and Xu xinyue"
 date: "`r Sys.Date()`"
 output: html_document
 ---
