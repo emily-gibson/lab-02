@@ -105,7 +105,10 @@ plastic_data_all %>% mutate(total_mismanage_plastic =mismanaged_plastic * popula
 ### Ex 3.
 
 ```{r Ex3, message = FALSE}
-# Write your code here to answer exercise 3
+plastic_data_all %>%
+  mutate(pct_mismanaged_plastic_ocean = 100 * (mismanaged_plastic_ocean/mismanaged_plastic)) %>%
+  group_by(region) %>%
+  summarise(median = median(pct_mismanaged_plastic_ocean))
 
 
 
